@@ -174,7 +174,7 @@ bool unload(void)
 
         node *ptr = hashtable[i];
 
-        while (ptr != NULL)
+        while (ptr)
         {
             node *temp = ptr;
             ptr = ptr->next;
